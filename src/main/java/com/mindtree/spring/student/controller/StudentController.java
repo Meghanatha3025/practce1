@@ -24,6 +24,7 @@ public class StudentController {
 	public Student saveStudent(@RequestBody Student student)
 	{
 		return service.addStudent(student);
+		//fftffgjyfgyg
 	}
 	@PostMapping("/students")
  public List<Student> saveStudents(@RequestBody List<Student> students)
@@ -46,5 +47,6 @@ public class StudentController {
     {
         return service.updateStudentById( student);
     }
+	
 	
 }
